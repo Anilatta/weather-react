@@ -56,11 +56,11 @@ export default function Weather() {
                         20
                       </span>
                       <span className="unit">
-                        <a href="#" id="celcius-link" className="active">
+                        <a href="/" id="celcius-link" className="active">
                           °C
                         </a>
                         |
-                        <a href="#" id="fahrenheit-link">
+                        <a href="/" id="fahrenheit-link">
                           °F
                         </a>
                       </span>
