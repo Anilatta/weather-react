@@ -1,4 +1,3 @@
-import logo from "./logo.svg";
 import "./App.css";
 
 import Weather from "./Weather";
@@ -9,13 +8,13 @@ export default function App() {
       <div className="container">
         <Weather defaultCity="Kyiv" />
         <footer>
-          This project was coded by Talina Dzhavakhadze and is
+          This project was coded by Talina Dzhavakhadze and is open-sourced on{" "}
           <a
             href="https://github.com/Anilatta/vanilla-weather-app"
             target="_blank"
-            rel="noopener noreferrer"
           >
-            open-sourced on GitHub
+            {" "}
+            GitHub
           </a>
         </footer>
       </div>
